@@ -1,92 +1,65 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Mykola
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Odnosumov
+about: Hi, my name is Mykola Odnosumov. I want to become professional web developer.
+       Also, I love reading books and playing video games. Please hire me.
+position: Intern/Trainee SW Developer
 
 birth:
-  year: 1990
-  location: New York
-
-experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
-
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+  year: 1998
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Bachelor of Computer Science
+  timeperiod: September 2015 - July 2019
+  description: Major in Technology Design, National Aviation University, Kyiv, Ukraine.
+  website: https://nau.edu.ua
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Computer Science
+  timeperiod: November 2017 - July 2019
+  description: Implemented a lot of different projects, UNIT Factory (a.k.a. 42 school), Kyiv, Ukraine.
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
+- name: JavaScript (ES6)
+  level: 100
 - name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
+  level: 95
+- name: React.JS
+  level: 50
+- name: Angular 6
+  level: 50
+- name: Node.JS
+  level: 50
+- name: Linux
+  level: 100
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
-
-projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+  level: 100
+knowledge: Also proficient in scripting, data analysis, searching (Google), grew up bilingual
+  (Russian and Ukrainian), C1 in English (both written and spoken).
 
 hobbies:
 - name: Video Games
   iconClass: fa fa-gamepad
+
+- name: Singing
+  iconClass: fa fa-music
   url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
+- name: Reading
+  iconClass: fa fa-book
   url: https://example.com
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Programming
+  iconClass: fa fa-code
+  url: https://example.com
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: mkloouo@gmail.com
+  phone: +380632639342
+  city: Kyiv
+  github: mkloouo
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `

@@ -39,6 +39,14 @@
       </router-link>
     </div>
     <div class="preview">
+      <router-link v-bind:to="'/resume/side-bar-custom'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/resume-side-bar-custom.png" />
+          <span>side-bar-custom</span>
+        </div>
+      </router-link>
+    </div>
+    <div class="preview">
       <router-link v-bind:to="'/resume/purple'">
         <div class="preview-wrapper">
           <img src="../assets/preview/resume-purple.png" />
