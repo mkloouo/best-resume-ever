@@ -1,14 +1,14 @@
 /* #*/ export const PERSON = `
 name:
-  first: Mykola
+  first: Karina
   middle:
-  last: Odnosumov
-about: Hi, my name is Mykola Odnosumov. I want to become professional web developer.
-       Also, I love reading books and playing video games. Please hire me.
-position: Intern/Trainee SW Developer
+  last: Cherniak
+about: Hi, my name is Karina Cherniak. I want to become professional web developer.
+       Also, I love reading books, drawing and cats. Please hire me.
+position: Web Developer
 
 birth:
-  year: 1998
+  year: 1996
 
 education:
 - degree: Bachelor of Computer Science
@@ -24,42 +24,39 @@ education:
 skills:
 - name: JavaScript (ES6)
   level: 100
-- name: TypeScript
-  level: 95
-- name: React.JS
-  level: 50
-- name: Angular 6
-  level: 50
 - name: Node.JS
-  level: 50
+  level: 95
 - name: Linux
   level: 100
 - name: Docker
   level: 100
-knowledge: Also proficient in scripting, data analysis, searching (Google), grew up bilingual
-  (Russian and Ukrainian), C1 in English (both written and spoken).
+- name: bash
+  level: 100
+- name: Algorithms
+  level: 100
+- name: Data Structures
+  level: 100
+knowledge: Also proficient in coming up with new ideas, scripting, data analysis,
+  searching (Google), grew up bilingual (Russian and Ukrainian), B1 in English (both written and spoken).
 
 hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-
-- name: Singing
-  iconClass: fa fa-music
-  url: https://example.com
-
-- name: Reading
+- name: Reading 
   iconClass: fa fa-book
-  url: https://example.com
+
+- name: Drawing
+  iconClass: fas fa-camera
+
+- name: Cats
+  iconClass: fa fa-paw
 
 - name: Programming
   iconClass: fa fa-code
-  url: https://example.com
 
 contact:
-  email: mkloouo@gmail.com
-  phone: +380632639342
+  email: karina.cherniak@outlook.com
+  phone: +380935281145
   city: Kyiv
-  github: mkloouo
+  github: kchernia
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `

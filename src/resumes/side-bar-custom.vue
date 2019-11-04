@@ -16,7 +16,7 @@
           </div>
           <div class="contact">
               <h3>{{ lang.contact }}</h3>
-              <div class="contact-row">
+              <div class="contact-row" style="text-align: left">
                   <a :href="contactLinks.email">{{person.contact.email}}</a>
               </div>
               <div class="contact-row dots">
@@ -83,8 +83,6 @@
               <span class="skills-other"> {{person.knowledge}} </span>
           </div>
       </div>
-  </div>
-
   </div>
 </template>
 
@@ -213,7 +211,7 @@ export default Vue.component(name, getVueOptions(name));
         .skill {
           width:80px;
           height:80px;
-          border-radius:50%;
+          // border-radius:50%;
           position:relative;
           border:#333333 1px solid;
           margin:3px;
