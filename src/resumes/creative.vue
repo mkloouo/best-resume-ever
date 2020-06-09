@@ -4,7 +4,7 @@
       <div>
         <div class="headline">
           <span> {{ person.name.first }} {{ person.name.middle }} </span>
-          <span class="uppercase"> {{ person.name.last }} </span>
+          <span> {{ person.name.last }} </span>
         </div>
 
         <p>
@@ -158,7 +158,7 @@
         class="skills-section section">
         <div class="icon">
           <i class="material-icons">done_all</i>
-          <span class="section-headline"> {{ lang.skills }} </span>
+          <span class="section-headline">  Characteristics & Skills </span>
         </div>
 
         <div class="section-content-grid">
@@ -209,7 +209,7 @@ export default Vue.component(name, getVueOptions(name));
 
 <style lang="less" scoped>
 
-@accent-color: #A800FA;
+@accent-color: #9e7c5e; // 9e7c5e
 
 .resume {
   display: flex;
