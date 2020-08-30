@@ -13,6 +13,13 @@ birth:
 
 
 experience:
+- company: Wirex
+  position: Customer Support
+  timeperiod: July 2020 - Present
+  description: Studied fintech and cryptocurrencies to support Wirex users.
+               Resolved tickets, answed online questions and resolved problems in chat.
+  website: https://wirexapp.com/en-ua
+
 - company: Flash
   position: Child/Adult Teacher
   timeperiod: Oct 2019 - Jun 2020
@@ -22,7 +29,7 @@ experience:
 
 - company: Teleperfomance
   position: Customer Support/Travel Agent
-  description: Consulted avia company clients regarding documents amd flight organization issues. 
+  description: Consulted avia company clients regarding documents amd flight organization issues.
               Used a set of programms for financial processing, flight arrangement, user accounts management,
               accomodation for our customers, insurance support and airlines interaction.
   timeperiod: Jun 2019 - Sept 2019
@@ -46,7 +53,7 @@ skills:
 - name: Communication
 - name: Quick Learner
 - name: German
-- name: Basic Bulgarian 
+- name: Basic Bulgarian
 
 
 projects:
