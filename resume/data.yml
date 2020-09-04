@@ -2,7 +2,7 @@
 name:
   first: Anna
   last: Vereshak
-about: I"m active and people caring person and I"m currently searching for
+about: I'm active and people caring person and I'm currently searching for
        a day-to-day job that I would personally love going to. Please, hire me!
 position: Customer Care Expert
 
@@ -79,9 +79,6 @@ hobbies:
 - name: Photography
   iconClass: fa fa-instagram
   url: https://www.instagram.com/__vrshk__/
-
-- name: Pets
-  iconClass: fa fa-github-alt
 
 
 contact:

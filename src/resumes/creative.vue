@@ -2,6 +2,9 @@
   <div class="resume" id="resume2">
     <div class="left-column">
       <div>
+        <div style="margin-bottom: 20px">
+          <img src="../../resume/id.jpg" style="border-radius: 10px; max-width: 95%; max-height: 95%;" />
+        </div>
         <div class="headline">
           <span> {{ person.name.first }} {{ person.name.middle }} </span>
           <span> {{ person.name.last }} </span>
@@ -209,7 +212,8 @@ export default Vue.component(name, getVueOptions(name));
 
 <style lang="less" scoped>
 
-@accent-color: #9e7c5e; // 9e7c5e
+@accent-color: #927154; // 9e7c5e
+// @accent-color: #9e7c5e; // 9e7c5e
 
 .resume {
   display: flex;
@@ -227,7 +231,7 @@ export default Vue.component(name, getVueOptions(name));
   text-align: left;
 
   color: #ffffff;
-  color:rgba(255,255,255,0.59);
+  color:rgba(255,255,255,0.89);
   background-color: @accent-color;
   overflow: hidden;
   display: block;
